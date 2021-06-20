@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-// import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-// import pic03 from '../images/pic03.jpg'
 import me from '../images/me.jpg'
 
 class Main extends React.Component {
@@ -31,16 +29,16 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={me} alt="funny" />
+            <img src={me} alt="Katie walking down a path in the Royal National Park" />
           </span>
           <p>
           Hi, I'm Katie and I'm very excited to be a Junior Software Developer!
           <br/>
           <br/>
-          I was previously working in the legal industry for over 8 years and reached a point in my career where the service I provided was evolving. I noticed aspects of my role being replaced with programs and more and more red tape giving me less automony to problem solve and forward think. I spent time traveling and pursuing other interests alongside my regular job in order to feel into what might be the best way forward for me. I spent time in Australia and overseas learning, traveling and teaching Pilates - becoming more self aware, growing up .. all the fun stuff.
+          I was previously working in the legal industry for over 8 years and reached a point in my career where the service I provided was evolving. I noticed aspects of my role being replaced with programs and more and more red tape giving me less automony to problem solve and forward think. I spent time traveling and pursuing other interests alongside my regular job in order to feel into what might be the best way forward for me. I spent time in Australia and overseas learning, traveling and teaching pilates.
           <br/>
           <br/>
-          I eventually realised that software development - in its essence, was exactly what I had always felt a passion for! <br/>Pilates - hacking and understanding the anatomy to improve my own user experience.
+          It didn't take me long to realise that software development - in its essence, was exactly what I had always felt a passion for! <br/>Pilates - hacking and understanding the anatomy to improve my own user experience.
           <br/>Legal - organising and supporting individuals in the judicial system, understanding situational needs and their impacts on desigining and implementing seemless processes. The importance of risk management in both pursuits. It just made sense and intuitively felt right. I see coding as learning to read and write but in a language that has a greater impact in supporting people and society.
           <br/>
           <br/>
@@ -65,61 +63,39 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
-          {close}
-        </article>
-
-
-
-        <article
-          id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Contact</h2>
-          <h3> Email me! klugton@hotmail.com </h3>
-          <ul className="icons">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/katielugton/"
-                className="icon fab fa-linkedin"
-              >
-                <span className="label">LinkedIn</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com/KatieZoePink"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/KatieZoe"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-          </ul>
+          <div>
+            <h2> Wonder Tracker </h2>
+            <h5>Outcomes Tracker for Graduate students </h5>
+            <p>Wonder Tracker is an application to assist our student outcomes manager in tracking her students from different cohorts and their journey toward employment. The intended user is a huge Wonder Woman fan so another student and I came up with the idea to create Wonder Tracker. The tech stack is Ruby on Rails/Postgresql back end and React/Javascript front end. This project was an opportunity to tighten up my React skills and work in a paired programming environment before working on my own personal interest projects once the course ended.
+            </p>
+            <button> Open App </button>
+            <br/>
+            <br/>
+          <div>
+          <h2> Gahoot </h2>
+          <h5>a Kahoot clone </h5>
+            <p>The objective of this project was to create a clone of the trivia application Kahoot.  I worked in a group of 4 to create the MVP within a week and especially enjoyed working with my team mates on this project.  The tech stack used here was HTML/CSS, React/Javascript, Ruby on Rails, Postgresql, Heroku and Cloudinary.
+            </p>
+          <button> Open App </button>
+          <br/>
+          <br/>
+          </div>
+          <h2> BigAsk </h2>
+          <h5> BookMark Organiser </h5>
+            <p>The objective of this project was to create a web application using the tools we have learnt by week 5 of the SEI course (HTML, CSS, Ruby, JQuery, Rails, SQL, Postgress, ActiveRecord, Bcrypt, Bootstrap, Heroku). I created a bookmark organiser application called 'BigAsk' to categorise and sort bookmarks for users and display them in a visually appealing way.
+            </p>
+          <button> Open App </button>
+          <br/>
+          <br/>
+          </div>
+          <div>
+          <h2> Tic Tac Toe </h2>
+          <h5> aka Noughts and Crosses </h5>
+            <p>The objective of this project was to create the game Tic Tac Toe using HTML, CSS, JavaScript and JQuery, and deploy the game online using GitHub.
+            </p>
+          <button> Open App </button>
+          <br/>
+          </div>
           {close}
         </article>
       </div>

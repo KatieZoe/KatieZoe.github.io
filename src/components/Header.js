@@ -10,7 +10,38 @@ const Header = props => (
       <div className="inner">
         <h1>Katie Lugton</h1>
         <p>Junior Web Developer</p>
-        <p>What's up!</p>
+        <ul className="icons">
+          <li>
+            <a
+              target='_blank'
+              rel='noreferrer noopener'
+              href="https://github.com/KatieZoe"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a
+              target='_blank'
+              rel='noreferrer noopener'
+              href="https://www.linkedin.com/in/katielugton/"
+              className="icon fab fa-linkedin"
+            >
+              <span className="label">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a
+              target='_blank'
+              rel='noreferrer noopener'
+              href="https://twitter.com/KatieZoePink"
+              className="icon fa-twitter"
+            >
+              <span className="label">Twitter</span>
+            </a>
+          </li>
+        </ul>
         <p>
       </p>
       </div>
@@ -33,15 +64,6 @@ const Header = props => (
             }}
           >
             Projects
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
-            Contact
           </button>
         </li>
       </ul>
