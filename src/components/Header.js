@@ -13,6 +13,14 @@ const Header = props => (
         <ul className="icons">
           <li>
             <a
+              href="mailto:klugton@hotmail.com"
+              className="icon fa-inbox"
+            >
+              <span className="label">email</span>
+            </a>
+          </li>
+          <li>
+            <a
               target='_blank'
               rel='noreferrer noopener'
               href="https://github.com/KatieZoe"
