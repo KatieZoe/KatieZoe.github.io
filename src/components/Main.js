@@ -13,7 +13,6 @@ class Main extends React.Component {
         }}
       ></div>
     )
-
     return (
       <div
         ref={this.props.setWrapperRef}
@@ -70,7 +69,13 @@ class Main extends React.Component {
             <h5>Outcomes Tracker for Graduate students </h5>
             <p>Wonder Tracker is an application to assist our student outcomes manager in tracking her students from different cohorts and their journey toward employment. The intended user is a huge Wonder Woman fan so another student and I came up with the idea to create Wonder Tracker. The tech stack is Ruby on Rails/Postgresql back end and React/Javascript front end. This project was an opportunity to tighten up my React skills and work in a paired programming environment before working on my own personal interest projects once the course ended.
             </p>
-            <button> Open App </button>
+            <a
+            target='_blank'
+            rel='noreferrer noopener'
+            href="https://wonder-tracker-client.herokuapp.com/">
+            Open App
+            </a>
+
             <br/>
             <br/>
           <div>
@@ -78,7 +83,12 @@ class Main extends React.Component {
           <h5>a Kahoot clone </h5>
             <p>The objective of this project was to create a clone of the trivia application Kahoot.  I worked in a group of 4 to create the MVP within a week and especially enjoyed working with my team mates on this project.  The tech stack used here was HTML/CSS, React/Javascript, Ruby on Rails, Postgresql, Heroku and Cloudinary.
             </p>
-          <button> Open App </button>
+            <a
+            target='_blank'
+            rel='noreferrer noopener'
+            href="https://gahoot-client.herokuapp.com/">
+            Open App
+            </a>
           <br/>
           <br/>
           </div>
@@ -86,7 +96,12 @@ class Main extends React.Component {
           <h5> BookMark Organiser </h5>
             <p>The objective of this project was to create a web application using the tools we have learnt by week 5 of the SEI course (HTML, CSS, Ruby, JQuery, Rails, SQL, Postgress, ActiveRecord, Bcrypt, Bootstrap, Heroku). I created a bookmark organiser application called 'BigAsk' to categorise and sort bookmarks for users and display them in a visually appealing way.
             </p>
-          <button> Open App </button>
+            <a
+            target='_blank'
+            rel='noreferrer noopener'
+            href="https://big-ask.herokuapp.com/login">
+            Open App
+            </a>
           <br/>
           <br/>
           </div>
@@ -95,7 +110,12 @@ class Main extends React.Component {
           <h5> aka Noughts and Crosses </h5>
             <p>The objective of this project was to create the game Tic Tac Toe using HTML, CSS, JavaScript and JQuery, and deploy the game online using GitHub.
             </p>
-          <button> Open App </button>
+            <a
+            target='_blank'
+            rel='noreferrer noopener'
+            href="https://katiezoe.github.io/Tic-Tac-Toe/">
+            Open App
+            </a>
           <br/>
           </div>
           {close}
