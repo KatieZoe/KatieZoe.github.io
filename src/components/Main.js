@@ -27,9 +27,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={me} alt="Katie walking down a path in the Royal National Park" />
-          </span>
+          </span> */}
           <p>
             Update in progress...
           </p>
