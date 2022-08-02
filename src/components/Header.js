@@ -39,16 +39,6 @@ const Header = props => (
               <span className="label">LinkedIn</span>
             </a>
           </li>
-          <li>
-            <a
-              target='_blank'
-              rel='noreferrer noopener'
-              href="https://twitter.com/KatieZoePink"
-              className="icon fa-twitter"
-            >
-              <span className="label">Twitter</span>
-            </a>
-          </li>
         </ul>
         <p>
       </p>
